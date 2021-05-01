@@ -20,13 +20,9 @@ public class Main
 	 
 	}
 	static int pallin(int n){
-	    int l=0,temp=n,sum=0;
+	    int temp=0,sum=0;
 	    
-	    while(temp!=0){
-	       l++ ;
-	       temp/=10;
-	       
-	    }
+	   
 	    while(n!=0){
 	        temp=n%10;
 	        sum=sum*10+temp;
